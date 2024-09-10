@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            padding:0px;
+            margin:0px auto;
+        }
+        .wrapper{
+            width: 960px;
+            height: 700px;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+        }
+    header{
+        background-color: #294e79;
+        width: 960px;
+        height: 120px;
+        position: relative;
+
+    }
+    header img{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    header .ph{
+        position: absolute;
+        top: 50px;
+        left: 120px;
+        color: white;
+    }
+    header h1{
+        position: absolute;
+        top: 10px;
+        left: 120px;
+        color: white;
+    }
+    header #frm1{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        background-color: cornflowerblue;
+        color: azure;
+    }
+    header #frm1 input{
+        background-color: rgb(9, 32, 53);
+    }
+    header #frm1 button{
+        background-color: rgb(9, 32, 53);
+    }
+    nav{
+        position: absolute;
+        bottom: 0px;
+        left: 400px;
+    }
+    .menu li{
+        background-color: #688EB9;
+        display: inline-table;
+        height: 50px;
+        line-height: 50px;
+        margin: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .menu li a{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: large;
+        text-decoration: none;
+    }
+    .menu li :hover{
+        background-color: thistle;
+    }
+    .menu li :hover>a{
+        font-style: italic;
+        background-color: tomato;
+    }
+    .content{
+        height: 450px;
+        width: 960px;
+        background-color: wheat;
+    }
+    footer{
+        background-color: #294e79;
+        position: relative;
+        height: 90px;
+        width: 960px;
+    }
+    footer p {
+        position: absolute;
+        left: 100px;
+        top: 30px;
+        color: white;
+        font-size:large;
+    }
+    section{
+        width: 70%;
+        height: 100%;
+        background-color: antiquewhite;
+        float: left;
+    }
+    aside{
+        height: 100%;
+        width: 30%;
+        background-color: rgb(190, 166, 133);
+        float: left;
+    }
+    </style>
+</head>
+<body>
+    <div class="wapper">
+        <header>
+            <img src="flower.png" alt="" srcset="" height="100" width="80">
+            <h1>FlowerBox 360</h1>
+            <p class="ph">...to get your daily close of luxury roses!</p>
+            <form action="" method="get" id="frm1">
+                <input type="search" name="txts" id="txts" placeholder="Flowers Services" style="color: aliceblue;">
+                <button type="submit" style="color: aliceblue;">GO</button>
+            </form>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Promotion</a></li>
+                    <li><a href="#">Gift Baskets</a></li>
+                    <li><a href="#">Flower Services</a></li>
+                    <li><a href="#">About</a></li>
+                
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <section>
+                <h2>Why Not Contact Us Today!</h2>
+                <p>For FlowerBox 360 shopers, that means not only </p>
+                <p>can you send your friends and loves ones the </p>
+                <p>highes quality flowers found on online, but thatt you</p> 
+                <p>can do so at a great value.</p>
+
+            </section>
+            <aside>
+
+            </aside>
+        </div>
+        <footer>
+            <p>Copyright 2017 - All Rights Reserved - Software Engineering Department - Industrial Univerrsity of Ho Chi Minh City </p>
+        </footer>
+    </div>
+</body>
+</html>
